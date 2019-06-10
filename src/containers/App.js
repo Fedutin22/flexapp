@@ -1,19 +1,7 @@
 import React from 'react';
 
 const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        textTransform: 'uppercase',
-      }}
-    >
-      {' '}Init{' '}
-    </div>
-  );
+  return <div> init</div>;
 };
 
 export default App;

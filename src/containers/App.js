@@ -1,7 +1,10 @@
+// core import
 import React from 'react';
+// components import
+import StartingPage from '../components/StartingPage';
 
 const App = () => {
-  return <div> init</div>;
+  return <StartingPage />;
 };
 
 export default App;

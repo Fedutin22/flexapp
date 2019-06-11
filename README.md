@@ -21,12 +21,12 @@
 <br>
 
 <div id='general'>
-<h2>General info 💡<h3>
+<h2>General info 💡</h2>
 <p>This application was created in order to make visualization of the personal budget control. The application allows you to track user's fixed incomes and expenses, to plan financial goals and to display a report for a selected period of time. The main motto is to create a lightweight and UX-friendly app using React for UI rendering and Firebase for data storage. The project was originally created, designed and developed as part of the frontend development course in JavaGuru.</p>
 </div>
 <br>
 <div id='dependencies'>
-<h2>Dependencies 🛠<h3>
+<h2>Dependencies 🛠</h2>
 <code>date-fns@1.30.1</code> <br>
 <code>react@16.8.6</code> <br>
 <code>react-dom@16.8.6</code> <br>
@@ -35,7 +35,7 @@
 </div>
 <br>
 <div id='setup'>
-<h2>Setup 🔌<h3>
+<h2>Setup 🔌</h2>
 <p>Steps to run app localy:</p>
 <ul>
 <li>
@@ -61,7 +61,7 @@ git clone
 </div>
 <br>
 <div id='contribution'>
-<h2>Contribution 💎<h3>
+<h2>Contribution 💎</h2>
 <p>🚨Warning🚨<br>
 Generally this section is for our team collaborators.</p>
 <p>If you want to contribute to this project you need to make your Pull Request. Here is short guide for you:</p>

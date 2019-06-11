@@ -15,4 +15,5 @@ export const Button = styled.button`
 background-color: transparent;
 outline:none;
 border: 1px solid black;
+cursor: pointer;
 `;

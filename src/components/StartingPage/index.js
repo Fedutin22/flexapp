@@ -12,6 +12,8 @@ import {
   AppDescription,
   LoginButton,
   SignupButton,
+  PageFooter,
+  LinkToGithub,
 } from './styles';
 
 //style preferences for video
@@ -51,7 +53,20 @@ const StartingPage = () => {
           </AppDescription>
           <PageButton>Join now</PageButton>
         </ContentContainer>
-
+        <PageFooter>
+          {' '}
+          {'\u00A9'}
+          {' '}
+          2019 | Made with ❤️ by
+          {' '}
+          <LinkToGithub
+            href="https://github.com/WarOnKhoff/FinApp-Jg"
+            target="blank"
+          >
+            BudgetHelper
+          </LinkToGithub>
+          {' '}
+        </PageFooter>
       </StartPageContainer>
     </span>
   );

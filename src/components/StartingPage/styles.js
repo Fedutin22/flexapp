@@ -20,6 +20,17 @@ justify-content: flex-end;
 align-items: center;
 padding: 0 50px;
 `;
+export const PageFooter = styled (Row)`
+position: fixed;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 30px;
+background-color: ${Palette.paletteColor5};
+color: ${Palette.paletteColor2};
+justify-content: center;
+align-items: center;
+`;
 export const ContentContainer = styled (Column)`
 width: 50%;
 height: 100%;
@@ -32,12 +43,14 @@ color: ${Palette.paletteColor2};
 text-transform: uppercase;
 font-size: ${Palette.fontSizeSlogan};
 margin-top: 50px;
+cursor: default;
 `;
 
 export const AppName = styled.h1`
 margin-top: 150px;
 color: ${Palette.paletteColor1};
 font-size: ${Palette.fontSizeAppName};
+cursor: default;
 `;
 
 export const PageButton = styled (Button)`
@@ -63,7 +76,8 @@ margin-top: 100px;
 margin-bottom: 50px;
 font-size: 20px;
 width: 70%;
-color: ${Palette.paletteColor2}
+color: ${Palette.paletteColor2};
+cursor: default;
 `;
 
 export const LoginButton = styled (Button)`
@@ -86,4 +100,18 @@ export const SignupButton = styled (LoginButton)`
 color: ${Palette.paletteColor2};
 background-color: ${Palette.paletteColor1};
 margin-left: 20px;
+`;
+
+export const LinkToGithub = styled.a`
+color: ${Palette.paletteColor2};
+margin-left: 5px;
+cursor: pointer;
+text-decoration: none;
+
+&:link &:visited &:active {
+    text-decoration: none;
+}
+&:hover{
+    color: ${Palette.paletteColor1};
+}
 `;

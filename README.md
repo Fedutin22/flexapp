@@ -1,4 +1,6 @@
-<img src="./src/assets/readme/logo.png" />
+<div align="center">
+<img src="./src/assets/readme/logo.png"/>
+</div>
 <h1 align="center">💰BudgetHelper💰<h1>
 <div align="center">
 <img src="https://img.shields.io/github/last-commit/WarOnKhoff/FinApp-Jg.svg">
@@ -25,13 +27,11 @@
 <br>
 <div id='dependencies'>
 <h2>Dependencies 🛠<h3>
-<code>
-├── date-fns@1.30.1 <br>
-├── react@16.8.6 <br>
-├── react-dom@16.8.6 <br>
-├── react-icons@3.7.0 <br>
-└── styled-components@4.3.1 <br>
-</code>
+<code>date-fns@1.30.1</code> <br>
+<code>react@16.8.6</code> <br>
+<code>react-dom@16.8.6</code> <br>
+<code>react-icons@3.7.0</code> <br>
+<code>styled-components@4.3.1</code> <br>
 </div>
 <br>
 <div id='setup'>

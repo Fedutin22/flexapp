@@ -35,7 +35,7 @@
 </div>
 <br>
 <div id='setup'>
-<h2>Setup 🔌</h2>
+<h2>Project Setup 🔌</h2>
 <p>Steps to run app localy:</p>
 <ul>
 <li>
@@ -53,6 +53,8 @@ git clone
 <p> After all You are ready to go! To start app localy:<p>
 <code> yarn start </code> or <code>npm start</code>
 </li>
+<p>Then open:<p>
+<code>http://localhost:3000/</code>
 <li>
 <p> To build project:<p>
 <code> yarn build </code> or <code>npm run build</code>
@@ -60,10 +62,17 @@ git clone
 </ul>
 </div>
 <br>
-<div id='contribution'>
-<h2>Contribution 💎</h2>
+
+<h2 id='contribution'>Contribution 💎</h2>
 <p>🚨Warning🚨<br>
 Generally this section is for our team collaborators.</p>
+<details><summary>
+click to expand this section
+</summary>
+<table align="center">
+<tbody>
+<tr>
+<td>
 <p>If you want to contribute to this project you need to make your Pull Request. Here is short guide for you:</p>
 <h4>Fork repository and clone it</h4>
 <p>To start your contribution you need to fork this repo to your github profile and then clone it and intall all dependencies. </p>
@@ -116,3 +125,8 @@ git push origin --delete [branch_name]
 <p> Good luck in your contributions! 😎 </p>
 </div>
 <br>
+</td>
+</tr>
+<tbody>
+</table>
+</details>

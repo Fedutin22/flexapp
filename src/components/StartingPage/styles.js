@@ -36,24 +36,26 @@ width: 50%;
 height: 100%;
 margin-top: 80px;
 padding-left: 30px;
+align-items: center;
 `;
 
 export const Slogan = styled.h2`
 color: ${Palette.paletteColor2};
 text-transform: uppercase;
 font-size: ${Palette.fontSizeSlogan};
-margin-top: 50px;
+margin-top: 5%;
 cursor: default;
 `;
 
 export const AppName = styled.h1`
-margin-top: 150px;
+margin-top: 10%;
 color: ${Palette.paletteColor1};
 font-size: ${Palette.fontSizeAppName};
 cursor: default;
 `;
 
 export const PageButton = styled (Button)`
+margin-top: 15%;
 color: ${Palette.paletteColor2};
 padding: 15px 32px;
 text-align: center;
@@ -72,10 +74,9 @@ box-shadow: 0px 0px 10px 1px ${Palette.paletteColor1};
 `;
 
 export const AppDescription = styled.p`
-margin-top: 100px;
-margin-bottom: 50px;
+margin-top: 15%;
 font-size: 20px;
-width: 70%;
+width: 90%;
 color: ${Palette.paletteColor2};
 cursor: default;
 `;

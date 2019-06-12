@@ -13,7 +13,7 @@ position: fixed;
 top: 0;
 right: 0;
 width: 100%;
-height: 80px;
+ height: 80px;
 box-shadow: 0px -20px 40px 20px black;
 background-color: ${Palette.paletteColor5};
 justify-content: flex-end;
@@ -32,10 +32,12 @@ justify-content: center;
 align-items: center;
 `;
 export const ContentContainer = styled (Column)`
-width: 50%;
+justify-content: center;
+  align-items: center;
+width: 100%;
 height: 100%;
-margin-top: 80px;
-padding-left: 30px;
+margin-top: 0px;
+
 align-items: center;
 `;
 
@@ -43,64 +45,45 @@ export const Slogan = styled.h2`
 color: ${Palette.paletteColor2};
 text-transform: uppercase;
 font-size: ${Palette.fontSizeSlogan};
-margin-top: 5%;
+
 cursor: default;
+margin: 20px;
 `;
 
 export const AppName = styled.h1`
-margin-top: 10%;
+
 color: ${Palette.paletteColor1};
 font-size: ${Palette.fontSizeAppName};
 cursor: default;
 `;
 
-export const PageButton = styled (Button)`
-margin-top: 15%;
-color: ${Palette.paletteColor2};
-padding: 15px 32px;
-text-align: center;
-text-decoration: none;
-font-size: 20px;
-width: 300px;
-border-radius: 20px;
-border: 2px solid ${Palette.paletteColor1};
-transition: all 0.2s linear;
-&:hover{
-background-color: ${Palette.paletteColor2};
-color: ${Palette.paletteColor1};
-transform: scale(1.1);
-box-shadow: 0px 0px 10px 1px ${Palette.paletteColor1};
-  }
+
+
+export const MyInput = styled.input`
+
+  margin: 20px;
+  text-align: center;
+  font-size: 20px;
+  width: 370px;
+  height: 30px;
+  border-radius: 20px;
+  border: 2px solid ${Palette.paletteColor1};
 `;
 
-export const AppDescription = styled.p`
-margin-top: 15%;
-font-size: 20px;
-width: 90%;
-color: ${Palette.paletteColor2};
-cursor: default;
-`;
 
-export const LoginButton = styled (Button)`
-color: ${Palette.paletteColor1};
-background-color: ${Palette.paletteColor2};
-text-align: center;
-text-decoration: none;
-font-size: 20px;
-width: 150px;
-border-radius: 20px;
-border:none;
+export const SignupButton = styled (Button)`
+color: ${Palette.paletteColor2};
+background-color: ${Palette.paletteColor1};
+margin-left: 20px;
 height: 30px;
+width: 370px;
+margin: 20px;
+border-radius: 20px;
+font-size: 20px;
 transition: all 0.1s linear;
 &:hover{
     transform: scale(1.1);
 }
-`;
-
-export const SignupButton = styled (LoginButton)`
-color: ${Palette.paletteColor2};
-background-color: ${Palette.paletteColor1};
-margin-left: 20px;
 `;
 
 export const LinkToGithub = styled.a`

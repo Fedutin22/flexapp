@@ -3,17 +3,20 @@ import React from 'react';
 import startVideo from '../../assets/startingVideo.mp4';
 //Styled components import
 import {
+  Form,
+  FormGroup,
+  
+} from 'reactstrap';
+import {
   StartPageContainer,
   PageHeader,
   ContentContainer,
   Slogan,
   AppName,
-  PageButton,
-  AppDescription,
-  LoginButton,
   SignupButton,
   PageFooter,
   LinkToGithub,
+  MyInput,
 } from './styles';
 
 //style preferences for video
@@ -30,7 +33,7 @@ const videoStyle = {
   transform: 'translateX(-50%) translateY(-50%)',
 };
 
-const StartingPage = () => {
+const SignUpPage = () => {
   return (
     <span>
       <video autoPlay loop muted style={videoStyle}>
@@ -38,20 +41,43 @@ const StartingPage = () => {
       </video>
       <StartPageContainer>
         <PageHeader>
-          <LoginButton>Login</LoginButton>
-          <SignupButton>Sign up</SignupButton>
+          
+          
         </PageHeader>
         <ContentContainer>
+        <AppName>BudgetHelper</AppName>
           <Slogan>Take your money flow under control</Slogan>
-          <AppName>BudgetHelper</AppName>
-          <AppDescription>
-            BudgetHelper helps you to control your expenses and incomes, as well as to plan your budget.
-            {' '}
-            You can also limit your expenses in order to achieve your financial goals.
-            {' '}
-            Start using BudgetHelper and control your cash flow today.
-          </AppDescription>
-          <PageButton>Join now</PageButton>
+          
+          <Slogan>Sign up now</Slogan>
+          <Form >
+          <FormGroup row>
+                <MyInput
+                 
+                  placeholder="Enter your name"
+                />
+              </FormGroup>
+              <FormGroup row>
+                <MyInput
+                 
+                  placeholder="username"
+                />
+              </FormGroup>
+              <FormGroup row>
+                <MyInput
+                  type="password"
+                 
+                  placeholder="password"
+                />
+              </FormGroup>
+              <FormGroup
+                row
+                style={{ dispay: 'flex', justifyContent: 'flex-end' }}
+              >
+                <SignupButton>Register</SignupButton>
+              </FormGroup>
+            </Form>
+          
+          
         </ContentContainer>
         <PageFooter>
           {' '}
@@ -72,4 +98,4 @@ const StartingPage = () => {
   );
 };
 
-export default StartingPage;
+export default SignUpPage;
